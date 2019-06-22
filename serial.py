@@ -87,7 +87,7 @@ while 1:
         dt12 = int((data - dt11 * 1000000) / 10000)
         dt21 = int((data - (dt11 * 1000000) - (dt12 * 10000)) / 100)
         dt22 = int(data % 100)
-        # print("heat1", heat1, "heat2", heat2, "conductivity1", conductivity1, "conductivity2", conductivity2)
+       
 
         data1 = dt11 * 100 + dt12
         data2 = dt21 * 100 + dt22
