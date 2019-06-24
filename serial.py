@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import serial
 import numpy as np
 from drawnow import *
-import csv
+
 
 from datetime import datetime
 import time
